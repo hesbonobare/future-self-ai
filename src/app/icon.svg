@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0d1f3c"/>
+      <stop offset="100%" stop-color="#060d1a"/>
+    </radialGradient>
+    <radialGradient id="eye" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#00b8d4" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer ring -->
+  <circle cx="16" cy="16" r="15.5" fill="url(#bg)" stroke="#00e5ff" stroke-width="0.8" opacity="0.9"/>
+
+  <!-- Crown / geometric hair -->
+  <path d="M 7 13 L 6 9 L 9 11 L 11 7 L 13 10 L 16 6 L 19 10 L 21 7 L 23 11 L 26 9 L 25 13 Z"
+        fill="#0d1f3c" stroke="#00e5ff" stroke-width="0.6" opacity="0.9"/>
+
+  <!-- Crown tip glow -->
+  <circle cx="16" cy="6" r="1.2" fill="#00e5ff" opacity="0.95"/>
+
+  <!-- Face -->
+  <ellipse cx="16" cy="19" rx="8" ry="9" fill="url(#bg)"/>
+
+  <!-- Left eye -->
+  <ellipse cx="11.5" cy="17" rx="3" ry="2.2" fill="#00e5ff" opacity="0.9"/>
+  <circle cx="11.5" cy="17" r="1.4" fill="#001a2e"/>
+  <circle cx="11.5" cy="17" r="0.7" fill="#00e5ff"/>
+  <circle cx="12.4" cy="16.2" r="0.5" fill="white" opacity="0.8"/>
+
+  <!-- Right eye -->
+  <ellipse cx="20.5" cy="17" rx="3" ry="2.2" fill="#00e5ff" opacity="0.9"/>
+  <circle cx="20.5" cy="17" r="1.4" fill="#001a2e"/>
+  <circle cx="20.5" cy="17" r="0.7" fill="#00e5ff"/>
+  <circle cx="21.4" cy="16.2" r="0.5" fill="white" opacity="0.8"/>
+
+  <!-- Mouth -->
+  <path d="M 13 23 Q 16 25 19 23" fill="none" stroke="#00e5ff" stroke-width="0.7" opacity="0.5" stroke-linecap="round"/>
+
+  <!-- Side circuit dots -->
+  <circle cx="7" cy="18" r="0.8" fill="#00e5ff" opacity="0.5"/>
+  <circle cx="25" cy="18" r="0.8" fill="#00e5ff" opacity="0.5"/>
+</svg>
